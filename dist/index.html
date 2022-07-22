@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Questions Of GitHub</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>WEEK 2: <em>EXERCISE 5</em></h1> 
+
+<br>
+
+<p id="i">Create a repo on GitHub that contains a markdown file that answers these questions:</p>
+
+<br>
+
+<ol id="primer">
+   <li> ¿Cómo ves los archivos cambiados dentro de cada <em>commit</em> desde el registro de git?</li>
+  <br>
+  <p class="answer">Con el comando get status, podremos observar los archivos que han sido cambiados usando el comando <em>commit</em>.</p>
+  <br> 
+  <li>¿Cómo ve el contenido de lo que cambió dentro de cada archivo del registro de git?</li>
+  <br>
+  <div class="answer">
+  <p>Una vez que realicemos el commit podremos visualizar el cambio, pero si deseamos visualizar los archivos que hemos cambiado podemos usar el comando diff: 
+  <ul>
+    <li>get diff</li>
+    <li>get diff --staged</li>
+    <li>get diff HEAD</li>
+  </ul>
+    <br>
+    Mostrará los últimos cambios que se realice con <em>commit</em> 
+  </p>
+  </div>
+  <br> 
+  <li>¿A qué se refiere HEAD en el contexto de git?</li> 
+  <br>
+<p class="answer"> HEAD es solo otro nombre para el <em>commit</em> más reciente.
+  Este compara el árbol de trabajo con el commit principal.</p>
+  <br>
+</ol>
+<!-- partial -->
+  
+</body>
+</html>
